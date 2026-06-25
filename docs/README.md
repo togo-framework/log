@@ -1,6 +1,6 @@
 # log — documentation
 
-  <img src=".github/assets/togo-mark.svg" alt="togo" height="64" />
+togo logging: levels, text/json, file output
 
 ## Overview
 
@@ -21,20 +21,19 @@ Set `LOG_DRIVER=<provider>` and install a driver (log-sentry, …).
 
 ## Configuration
 
-Environment variables read by this plugin (extracted from the source):
+Environment variables read by this plugin (extracted from the source — see the gateway/provider docs for each value):
 
-| Env var | Notes |
-|---|---|
-| `G` | _see provider docs_ |
-| `LOG_FILE` | _see provider docs_ |
-| `LOG_FORMAT` | _see provider docs_ |
-| `LOG_LEVEL` | _see provider docs_ |
-| `LOG_SERVICE` | _see provider docs_ |
+| Env var |
+|---|
+| `LOG_FILE"` |
+| `LOG_FORMAT"` |
+| `LOG_LEVEL"` |
+| `LOG_SERVICE"` |
 
 ## Usage
 
 ```go
-// Structured logs/errors are forwarded to the configured sink automatically
+// Structured logs/errors forward to the configured sink automatically
 // once this driver is installed and its env is set.
 ```
 
@@ -42,4 +41,4 @@ Environment variables read by this plugin (extracted from the source):
 
 - Marketplace: https://to-go.dev/marketplace
 - Source: https://github.com/togo-framework/log
-- README: ../README.md
+- Full README: ../README.md
