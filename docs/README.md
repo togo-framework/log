@@ -25,10 +25,10 @@ Environment variables read by this plugin (extracted from the source — see the
 
 | Env var |
 |---|
-| `LOG_FILE"` |
-| `LOG_FORMAT"` |
-| `LOG_LEVEL"` |
-| `LOG_SERVICE"` |
+| `LOG_FILE` |
+| `LOG_FORMAT` |
+| `LOG_LEVEL` |
+| `LOG_SERVICE` |
 
 ## Usage
 
